@@ -1,0 +1,47 @@
+/* CSS Document */
+a:link, a:visited {
+	text-decoration: none;
+	color:#000000;
+}
+
+a:hover {
+	color:#898989;
+}
+
+.banner {
+	text-align:center;
+	width: 100%;
+}
+
+.banner-header {
+	background-color:#E3E3E3;
+}
+
+.banner-menu {
+	background-color:#B2DFFF;
+}
+
+.banner-menu-button {
+	width:17%;
+}
+
+.banner-menu-selected{
+	background-color:#FF9496;
+}
+
+.table-display {
+	width:100%;
+	border:1;
+}
+
+.table-column-thin {
+	width:33%;
+}
+
+.image-width-twentyfive{
+	width:25%;
+}
+
+.image-width-fifty{
+	width:50%;
+}
