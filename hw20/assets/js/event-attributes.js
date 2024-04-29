@@ -133,24 +133,31 @@ var elUser = document.getElementById("username");
 var elPass = document.getElementById("password");
 var elComment = document.getElementById("comments");
 
+if(elFirst != null)
 elFirst.addEventListener("blur", function () {
 	validateName(2, "fn-feedback", "first-name", "fn-group");
 	}, false);
+if(elLast != null)
 elLast.addEventListener("blur", function () {
 	validateName(2, "ln-feedback", "last-name", "ln-group")
 	}, false);
+if(elEmail != null)
 elEmail.addEventListener("blur", function () {
 	validateEmail("email-feedback", "email", "email-group");
 	}, false);
+if(elPhone != null)
 elPhone.addEventListener("blur", function () {
 	validatePhone("pn-feedback", "phone-number", "pn-group");
 	}, false);
+if(elUser != null)
 elUser.addEventListener("blur", function () {
 	validateAccount(6, "user-feedback", "username", "user-group");
 	}, false);
+if(elPass != null)
 elPass.addEventListener("blur", function () {
 	validateAccount(6, "pass-feedback", "password", "pass-group");
 	}, false);
+if(elComment != null)
 elComment.addEventListener("blur", function() {
 	validateComment("comments-feedback", "comments", "comments-group");
 	}, false);

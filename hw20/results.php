@@ -7,7 +7,7 @@ if(isset($_REQUEST['sid']) && $_REQUEST['sid'] != '') {
 	$result=$dblink->query($sql) or 
 		die("<p>Something wen wrong with $sql<br>".$dblink->error);
 	if($result->num_rows<=0)
-		redirect("index.php?page=login&errMsg=InvalidSid");
+		redirect("index.php?page=login&errMsg=invalidSid");
 echo '<!-- ==== GREYWRAP ==== -->';
 echo '<div id="greywrap">';
 echo '</div>';
